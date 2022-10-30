@@ -31,9 +31,7 @@ function effect(){
   const confetti = new JSConfetti();
   var new_k = new_pic.value;
   if (new_k == "party-horn"){
-    confetti.addConfetti({
-      confettiRange: 200
-    });
+    confetti.addConfetti();
 
   }
 }
